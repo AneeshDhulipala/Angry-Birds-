@@ -36,5 +36,7 @@ class Slingshot {
     }
 
 
-
+    attach(body){
+    this.chain.bodyA=body
+    }
 }
